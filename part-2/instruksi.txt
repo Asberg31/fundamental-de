@@ -1,2 +1,30 @@
 Instruksi:
-- jawab soal dan taruh solusi di folder ini!
+
+1.Kapan kita harus menggunakan relational database atau nosql database ?
+2.Apa perbedaan antara database, data lake, data warehouse, dan data mart ?
+3.Jelaskan apa itu normalisasi database, dan normalisasikan tabel dibawah !
+
+employee_id	employee_name	job_code	job	city_code	city_name	province_code	province_name
+1	John Smith	101	Software Engineer	201	New York	301	New York
+2	Alice Johnson	102	Data Analyst	202	Los Angeles	302	California
+3	Bob Davis	103	Data Engineer	203	Chicago	303	Illinois
+4	Emily Wilson	101	Software Engineer	204	Houston	304	Texas
+5	Michael Lee	102	Data Analyst	205	Miami	305	Florida
+6	Sarah Brown	103	Data Engineer	206	Boston	306	Massachusetts
+7	James Clark	101	Software Engineer	207	San Fransisco	307	California
+8	Laura Taylor	102	Data Analyst	208	Seattle	308	Washington
+9	Daniel White	103	Data Engineer	209	Denver	309	Colorado
+10	Olivia Martin	101	Software Engineer	210	Atlanta	310	Georgia
+
+
+Jawaban	: 
+1.Relational Database	: ketika data yang kita miliki memiliki nilai data yang terstruktur seperti tabel,dll
+No SQL		: Ketika data yang kita miliki memiliki nilai data yang tidak terstruktur seperti gambar, video, dll
+
+2.Database		: tempat penyimpanan data dari sumber yang sama
+Data lake		: tempat penyimpanan data dari sumber yang berbeda dan masih bersifat kotor atau mentah (tempat penyimpanan data dari beberapa database yang berbeda)
+Data Warehouse	: tempat penyimpanan data dari data-data yang telah dibersihkan sebelumnya dari data lake yang berguna untuk tujuan analisis bbisnis dan disimpan dengan kategori masing-masing data
+Data Mart		: tempat penyimpanan data dengan cara disimpan dengan permintaan masing-masing divisi pada sebuah perusahaan data mart hanya berisi data-data yang diperlukan atau tidak semua data dimasukan hanya yang dibutuhkan oleh analis pada divisi tertentu
+
+
+3. Jawaban berupa gambar

@@ -1,2 +1,44 @@
 Instruksi:
-- jawab soal dan taruh solusi di folder ini!
+
+1.Apa peran utama seorang Data Engineer dalam ekosistem data? Bagaimana peran ini berbeda dari Data Scientist dan Data Analyst? 
+2.berikan beberapa contoh peran dari seorang Data Engineer yang mungkin bersinggungan atau bahkan sama dengan peran Data Scientist dan Data Analyst !
+3.Jelaskan langkah-langkah proses ETL dan ELT yang berperan dalam pekerjaan seorang data engineer !
+
+Jawaban:
+1.Data engineer berperan untuk mengekstrak data yang dibutuhkan data saintis dan analis untuk tujuan analisis, jika dianalogikan sebuah perusahaan perminyakan, data engineer bertugas untuk melakukan penambangan minyak dari dasar laut yang bersifat mentah(minyak mentah) dan data sains bertugas untuk mengolah minyak mentah tersebut agar menjadi minyak yang siap digunakan seperti pertalite, pertamax, minyak tanah, dll, dan data analis bertugas untuk melakukan proses analis sebaiknya kemana minyak ini dijual atau berapa harga yang cocok untuk minyak tersebut dengan menyesuaikan masing-masing divisi
+
+2.Bersinggungan	: 
+-Pengelolaan Infrastruktur Data
+-Eksplorasi Data
+
+Sama			: 
+-Pembersihan dan Preprocessing Data
+-Pengembangan Model
+-Visualisasi Data
+
+3.ETL (Extract, Transform, Load):
+
+A.Extract:
+Langkah pertama dalam proses ETL adalah mengekstraksi data dari sumber yang berbeda, seperti database, sistem file, API, atau data lake.
+Data Engineer mengidentifikasi dan memilih data yang relevan untuk diekstraksi berdasarkan kebutuhan analisis atau pengolahan data lebih lanjut.
+
+B.Transform:
+Setelah data diekstraksi, Data Engineer melakukan transformasi pada data dengan melakukan serangkaian operasi seperti pembersihan, penghapusan duplikat, normalisasi, penggabungan, pengubahan format, atau perhitungan agregat.
+Tujuan transformasi adalah memastikan bahwa data yang dihasilkan sesuai dengan format yang diinginkan, bersih, konsisten, dan siap untuk analisis lebih lanjut.
+
+C.Load:
+Setelah data mengalami transformasi, Data Engineer memuat data yang telah diolah ke sistem penyimpanan yang dituju, seperti data warehouse kemudian data mart.
+
+4.ETL (Extract, Load, Transform):
+
+D.Extract:
+Langkah pertama dalam proses ETL adalah mengekstraksi data dari sumber yang berbeda, seperti database, sistem file, API, atau data lake.
+Data Engineer mengidentifikasi dan memilih data yang relevan untuk diekstraksi berdasarkan kebutuhan analisis atau pengolahan data lebih lanjut.
+
+E.Load:
+Setelah data mengalami transformasi, Data Engineer memuat data yang telah diolah ke sistem penyimpanan yang dituju, seperti data warehouse kemudian data mart.
+
+F.Transform:
+Setelah data diekstraksi, Data Engineer melakukan transformasi pada data dengan melakukan serangkaian operasi seperti pembersihan, penghapusan duplikat, normalisasi, penggabungan, pengubahan format, atau perhitungan agregat.
+Tujuan transformasi adalah memastikan bahwa data yang dihasilkan sesuai dengan format yang diinginkan, bersih, konsisten, dan siap untuk analisis lebih lanjut.
+
